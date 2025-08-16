@@ -4,7 +4,7 @@ import numpy as np
 import altair as alt
 from datetime import datetime
 
-st.set_page_config(page_title="Portfolio • Viz + Insight", page_icon="/content/me.jpeg", layout="wide")
+st.set_page_config(page_title="Portfolio • Viz + Insight", page_icon="me.jpeg", layout="wide")
 alt.data_transformers.disable_max_rows()
 
 # ---------- Utils ----------
