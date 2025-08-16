@@ -4,7 +4,7 @@ import numpy as np
 import altair as alt
 from datetime import datetime
 
-st.set_page_config(page_title="Portfolio • Viz + Insight", page_icon="me.jpeg", layout="wide")
+st.set_page_config(page_title="Portfolio • Viz + Insight", page_icon="https://raw.githubusercontent.com/ElqoryCeasardy/portofolio-streamlit/main/me.jpeg", layout="wide")
 alt.data_transformers.disable_max_rows()
 
 # ---------- Utils ----------
@@ -37,7 +37,7 @@ page = st.sidebar.radio("", ["🏠 Beranda", "📊 Portfolio (Viz + Insight)", "
 if page == "🏠 Beranda":
     col1, col2 = st.columns([1,2], gap="large")
     with col1:
-        st.image("/content/me.jpeg", width=360)
+        st.image("https://raw.githubusercontent.com/ElqoryCeasardy/portofolio-streamlit/main/me.jpeg", width=360)
     with col2:
         st.title("Hi, I'm Elqory 👋")
         st.write("""
